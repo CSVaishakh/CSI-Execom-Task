@@ -4,8 +4,9 @@ import Image from "next/image";
 export function LandingHeader() {
   return (
     <section className="flex justify-between items-center p-4 px-24 bg-white border-b-4 border-blue-300 shadow-lg">
-      <h1 className="flex items-center gap-3 text-blue-800 text-3xl font-bold">
-        <Image src={"/csi.png"} alt="CSI" height={200} width={350} />
+      <h1 className="flex items-center gap-0 text-blue-800 text-3xl font-bold">
+        <Image src={"/onlyLogo.png"} alt="CSI" height={50} width={87.5} />
+        CSI SJCET
       </h1>
       <nav className="flex gap-4">
         <Link href={"/about"}>
@@ -26,8 +27,9 @@ export function LandingHeader() {
 export function AboutHeader() {
   return (
     <section className="flex justify-between items-center p-4 px-24 bg-white border-b-4 border-blue-300 shadow-lg">
-      <h1 className="flex items-center gap-3 text-blue-800 text-3xl font-bold">
-        <Image src={"/csi.png"} alt="CSI" height={200} width={350} />
+      <h1 className="flex items-center gap-0 text-blue-800 text-3xl font-bold">
+        <Image src={"/onlyLogo.png"} alt="CSI" height={50} width={87.5} />
+        CSI SJCET
       </h1>
       <nav className="flex gap-4">
         <Link href={"/"}>
@@ -48,8 +50,9 @@ export function AboutHeader() {
 export function EventsHeader() {
   return (
     <section className="flex justify-between items-center p-4 px-24 bg-white border-b-4 border-blue-300 shadow-lg">
-      <h1 className="flex items-center gap-3 text-blue-800 text-3xl font-bold">
-        <Image src={"/csi.png"} alt="CSI" height={200} width={350} />
+      <h1 className="flex items-center gap-0 text-blue-800 text-3xl font-bold">
+        <Image src={"/onlyLogo.png"} alt="CSI" height={50} width={87.5} />
+        CSI SJCET
       </h1>
       <nav className="flex gap-4">
         <Link href={"/"}>
