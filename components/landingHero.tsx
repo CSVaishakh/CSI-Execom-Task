@@ -34,14 +34,14 @@ export default function LandingHero(){
           
           {/* Call-to-action buttons */}
           <nav className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-8">
-            <Link href={'/about#membership'}>
-              <button className="bg-blue-600 text-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-blue-700 transition-all duration-300 hover:-translate-y-1 hover:shadow-xl focus:outline-none focus:ring-4 focus:ring-blue-300 focus:ring-offset-2 w-full sm:w-auto min-w-[200px]">
-                Become A Member
-              </button>
-            </Link>
             <Link href={'/about'}>
               <button className="bg-white text-blue-800 border-2 border-blue-300 px-8 py-4 rounded-lg font-semibold text-lg hover:bg-blue-300 hover:text-white transition-all duration-300 hover:-translate-y-1 hover:shadow-xl focus:outline-none focus:ring-4 focus:ring-blue-300 focus:ring-offset-2 w-full sm:w-auto min-w-[200px]">
                 About Us
+              </button>
+            </Link>
+            <Link href={'/about#membership'}>
+              <button className="bg-blue-600 text-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-blue-700 transition-all duration-300 hover:-translate-y-1 hover:shadow-xl focus:outline-none focus:ring-4 focus:ring-blue-300 focus:ring-offset-2 w-full sm:w-auto min-w-[200px]">
+                Become A Member
               </button>
             </Link>
             <Link href={'/events'}>
