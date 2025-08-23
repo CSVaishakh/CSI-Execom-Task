@@ -1,0 +1,26 @@
+{
+  "details": {
+    "title": "CSI @ SJCET",
+    "brief": "The Computer Society of India (CSI) Student Branch at SJCET is a vibrant platform for students passionate about technology and innovation.",
+    "details": "As part of India’s largest association of IT professionals, CSI @ SJCET provides opportunities for students to explore computing, AI, data science, and emerging technologies. We host workshops, hackathons, seminars, and expert talks that bridge the gap between academics and industry."
+  },
+  "mission": {
+    "title": "Our Mission",
+    "brief": "Inspiring innovation and research among students.",
+    "details": "Empower students by nurturing technical expertise, fostering collaboration, and connecting them with industry mentors—so they grow as innovators, leaders, and problem solvers."
+  },
+  "vision": {
+    "title": "Our Vision",
+    "brief": "Building the next generation of technology leaders.",
+    "details": "Position CSI @ SJCET as a hub of technological excellence where students push boundaries, embrace lifelong learning, and create societal impact through computing."
+  },
+  "team": [
+    { "President":"Ananya Menon" },
+    { "Secretary" : "Rahul Krishnan" },
+    { "Web Team Lead" : "Deepak Nair" },
+    { "Marketing Lead" : "Meera Thomas" },
+    { "Design Lead" : "Vishnu S" },
+    { "Operations Lead" : "Neha Pillai" },
+    { "Content Lead" : "Arjun R" }
+  ]
+}
