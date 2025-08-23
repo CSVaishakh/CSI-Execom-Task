@@ -4,10 +4,10 @@ import SBDetails from "@/components/sbDetails";
 
 export default function Home() {
   return (
-    <section>
+    <main className="min-h-screen">
       <LandingHeader/>
       <LandingHero/>
       <SBDetails/>
-    </section>
+    </main>
   );
 }

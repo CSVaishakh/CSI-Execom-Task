@@ -3,69 +3,81 @@ import Image from "next/image";
 
 export function LandingHeader() {
   return (
-    <section className="flex justify-between items-center p-4 px-24 bg-white border-b-4 border-blue-300 shadow-lg">
-      <h1 className="flex items-center gap-0 text-blue-800 text-3xl font-bold">
-        <Image src={"/onlyLogo.png"} alt="CSI" height={50} width={87.5} />
-        CSI SJCET
-      </h1>
-      <nav className="flex gap-4">
-        <Link href={"/about"}>
-          <button className="bg-white text-blue-800 border-2 border-blue-300 px-6 py-3 rounded-lg font-semibold hover:bg-blue-300 hover:text-white transition-all duration-300 hover:-translate-y-1 hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-blue-300 focus:ring-offset-2">
-            About
-          </button>
+    <header className="sticky top-0 z-50 bg-white/95 backdrop-blur-sm border-b border-blue-200 shadow-md animate-fade-in-down">
+      <div className="section-container flex justify-between items-center py-4">
+        <Link href="/" className="flex items-center gap-2 text-blue-800 text-2xl md:text-3xl font-bold hover:text-blue-700 transition-colors duration-300">
+          <div className="transform hover:scale-105 transition-transform duration-300">
+            <Image src="/onlyLogo.png" alt="CSI" height={45} width={78.75} priority />
+          </div>
+          <span className="hidden sm:block">CSI SJCET</span>
         </Link>
-        <Link href={"/events"}>
-          <button className="bg-white text-blue-800 border-2 border-blue-300 px-6 py-3 rounded-lg font-semibold hover:bg-blue-300 hover:text-white transition-all duration-300 hover:-translate-y-1 hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-blue-300 focus:ring-offset-2">
-            Events
-          </button>
-        </Link>
-      </nav>
-    </section>
+        <nav className="flex gap-3">
+          <Link href="/about">
+            <button className="btn-secondary text-sm md:text-base px-4 md:px-6 py-2 md:py-3">
+              About
+            </button>
+          </Link>
+          <Link href="/events">
+            <button className="btn-secondary text-sm md:text-base px-4 md:px-6 py-2 md:py-3">
+              Events
+            </button>
+          </Link>
+        </nav>
+      </div>
+    </header>
   );
 }
 
 export function AboutHeader() {
   return (
-    <section className="flex justify-between items-center p-4 px-24 bg-white border-b-4 border-blue-300 shadow-lg">
-      <h1 className="flex items-center gap-0 text-blue-800 text-3xl font-bold">
-        <Image src={"/onlyLogo.png"} alt="CSI" height={50} width={87.5} />
-        CSI SJCET
-      </h1>
-      <nav className="flex gap-4">
-        <Link href={"/"}>
-          <button className="bg-white text-blue-800 border-2 border-blue-300 px-6 py-3 rounded-lg font-semibold hover:bg-blue-300 hover:text-white transition-all duration-300 hover:-translate-y-1 hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-blue-300 focus:ring-offset-2">
-            Home
-          </button>
+    <header className="sticky top-0 z-50 bg-white/95 backdrop-blur-sm border-b border-blue-200 shadow-md animate-fade-in-down">
+      <div className="section-container flex justify-between items-center py-4">
+        <Link href="/" className="flex items-center gap-2 text-blue-800 text-2xl md:text-3xl font-bold hover:text-blue-700 transition-colors duration-300">
+          <div className="transform hover:scale-105 transition-transform duration-300">
+            <Image src="/onlyLogo.png" alt="CSI" height={45} width={78.75} priority />
+          </div>
+          <span className="hidden sm:block">CSI SJCET</span>
         </Link>
-        <Link href={"/events"}>
-          <button className="bg-white text-blue-800 border-2 border-blue-300 px-6 py-3 rounded-lg font-semibold hover:bg-blue-300 hover:text-white transition-all duration-300 hover:-translate-y-1 hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-blue-300 focus:ring-offset-2">
-            Events
-          </button>
-        </Link>
-      </nav>
-    </section>
+        <nav className="flex gap-3">
+          <Link href="/">
+            <button className="btn-secondary text-sm md:text-base px-4 md:px-6 py-2 md:py-3">
+              Home
+            </button>
+          </Link>
+          <Link href="/events">
+            <button className="btn-secondary text-sm md:text-base px-4 md:px-6 py-2 md:py-3">
+              Events
+            </button>
+          </Link>
+        </nav>
+      </div>
+    </header>
   );
 }
 
 export function EventsHeader() {
   return (
-    <section className="flex justify-between items-center p-4 px-24 bg-white border-b-4 border-blue-300 shadow-lg">
-      <h1 className="flex items-center gap-0 text-blue-800 text-3xl font-bold">
-        <Image src={"/onlyLogo.png"} alt="CSI" height={50} width={87.5} />
-        CSI SJCET
-      </h1>
-      <nav className="flex gap-4">
-        <Link href={"/"}>
-          <button className="bg-white text-blue-800 border-2 border-blue-300 px-6 py-3 rounded-lg font-semibold hover:bg-blue-300 hover:text-white transition-all duration-300 hover:-translate-y-1 hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-blue-300 focus:ring-offset-2">
-            Home
-          </button>
+    <header className="sticky top-0 z-50 bg-white/95 backdrop-blur-sm border-b border-blue-200 shadow-md animate-fade-in-down">
+      <div className="section-container flex justify-between items-center py-4">
+        <Link href="/" className="flex items-center gap-2 text-blue-800 text-2xl md:text-3xl font-bold hover:text-blue-700 transition-colors duration-300">
+          <div className="transform hover:scale-105 transition-transform duration-300">
+            <Image src="/onlyLogo.png" alt="CSI" height={45} width={78.75} priority />
+          </div>
+          <span className="hidden sm:block">CSI SJCET</span>
         </Link>
-        <Link href={"/about"}>
-          <button className="bg-white text-blue-800 border-2 border-blue-300 px-6 py-3 rounded-lg font-semibold hover:bg-blue-300 hover:text-white transition-all duration-300 hover:-translate-y-1 hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-blue-300 focus:ring-offset-2">
-            About
-          </button>
-        </Link>
-      </nav>
-    </section>
+        <nav className="flex gap-3">
+          <Link href="/">
+            <button className="btn-secondary text-sm md:text-base px-4 md:px-6 py-2 md:py-3">
+              Home
+            </button>
+          </Link>
+          <Link href="/about">
+            <button className="btn-secondary text-sm md:text-base px-4 md:px-6 py-2 md:py-3">
+              About
+            </button>
+          </Link>
+        </nav>
+      </div>
+    </header>
   );
 }
