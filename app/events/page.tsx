@@ -1,9 +1,9 @@
-import { EventsHeader } from "@/components/headers";
+import EventsHeader from "@/components/eventsPage/header";
 
-export default function Events() { 
-  return(
+export default function Events() {
+  return (
     <section>
-      <EventsHeader/>
+      <EventsHeader />
     </section>
-  )
+  );
 }

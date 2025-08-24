@@ -1,8 +1,8 @@
-import csiData from '../data/sbDetails.json'
-import Image from 'next/image'
+import csiData from "../../data/sbDetails.json";
+import Image from "next/image";
 
 export default function SBDetails() {
-  const data = csiData.details
+  const data = csiData.details;
 
   return (
     <section className="relative py-20 px-6 min-h-screen flex items-center justify-center">
@@ -36,5 +36,5 @@ export default function SBDetails() {
         </div>
       </div>
     </section>
-  )
+  );
 }

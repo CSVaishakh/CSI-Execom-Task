@@ -1,9 +1,9 @@
-import { AboutHeader } from "@/components/headers";
+import AboutHeader from "@/components/aboutPage/header";
 
-export default function About () {
-  return(
+export default function About() {
+  return (
     <section>
-      <AboutHeader/>
+      <AboutHeader />
     </section>
-  )
+  );
 }
