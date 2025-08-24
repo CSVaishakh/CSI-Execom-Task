@@ -3,8 +3,8 @@ import Image from "next/image";
 
 export default function AboutHeader() {
   return (
-    <header className="sticky top-0 z-50 bg-white/95 backdrop-blur-sm border-b border-blue-200 shadow-md animate-fade-in-down">
-      <div className="section-container flex justify-between items-center py-4">
+    <header className="sticky top-0 z-50 bg-white/95 backdrop-blur-sm border-b border-blue-200 shadow-md animate-fade-in-down h-24 min-h-24">
+      <div className="section-container flex justify-between items-center py-10 h-full">
         <Link
           href="/"
           className="flex items-center gap-2 text-blue-800 text-2xl md:text-3xl font-bold hover:text-blue-700 transition-colors duration-300"
