@@ -7,41 +7,41 @@ export interface eventProps {
 
 export default function EventCard({ event }: eventProps) {
   return (
-    <section className="w-full aspect-square border border-gray-200 rounded-lg p-4 shadow-md hover:shadow-xl transition-all duration-500 bg-white group transform hover:scale-105 hover:-translate-y-2 relative overflow-hidden">
+    <section className="w-full h-96 border border-gray-200 rounded-lg p-6 shadow-md hover:shadow-xl transition-all duration-500 bg-white group transform hover:scale-105 hover:-translate-y-2 relative overflow-hidden">
       {/* Animated background gradient on hover */}
       <div className="absolute inset-0 bg-gradient-to-br from-blue-50 to-indigo-50 opacity-0 group-hover:opacity-100 transition-opacity duration-500 rounded-lg"></div>
       
       <div className="h-full flex flex-col justify-between relative z-10">
-        <div className="flex-1">
-          <h3 className="text-lg font-bold mb-2 text-blue-600 line-clamp-2 group-hover:text-blue-700 transition-colors duration-300 transform group-hover:scale-[1.02]">
+        <div className="flex-1 overflow-hidden">
+          <h3 className="text-xl font-bold mb-3 text-blue-600 group-hover:text-blue-700 transition-colors duration-300 transform group-hover:scale-[1.02]">
             {event.name}
           </h3>
-          <p className="text-sm text-gray-600 mb-3 flex-grow overflow-hidden line-clamp-3 group-hover:text-gray-700 transition-colors duration-300">
+          <p className="text-sm text-gray-600 mb-4 leading-relaxed group-hover:text-gray-700 transition-colors duration-300 overflow-hidden">
             {event.descreption}
           </p>
         </div>
         
-        <div className="text-xs text-gray-500 space-y-1 mt-auto transform group-hover:translate-x-1 transition-transform duration-300">
-          <p className="flex items-center group-hover:text-gray-600 transition-colors duration-300">
-            <span className="font-semibold w-16 flex items-center">
+        <div className="text-sm text-gray-500 space-y-2 mt-auto transform group-hover:translate-x-1 transition-transform duration-300">
+          <p className="flex items-start group-hover:text-gray-600 transition-colors duration-300">
+            <span className="font-semibold w-16 flex items-center shrink-0">
               <span className="w-2 h-2 bg-blue-400 rounded-full mr-2 animate-pulse"></span>
               Date:
             </span> 
             <span className="flex-1">{new Date(event.date).toLocaleDateString()}</span>
           </p>
-          <p className="flex items-center group-hover:text-gray-600 transition-colors duration-300">
-            <span className="font-semibold w-16 flex items-center">
+          <p className="flex items-start group-hover:text-gray-600 transition-colors duration-300">
+            <span className="font-semibold w-16 flex items-center shrink-0">
               <span className="w-2 h-2 bg-green-400 rounded-full mr-2 animate-pulse" style={{animationDelay: '0.2s'}}></span>
               Venue:
             </span> 
-            <span className="flex-1 line-clamp-1">{event.venue}</span>
+            <span className="flex-1 line-clamp-2">{event.venue}</span>
           </p>
-          <p className="flex items-center group-hover:text-gray-600 transition-colors duration-300">
-            <span className="font-semibold w-16 flex items-center">
+          <p className="flex items-start group-hover:text-gray-600 transition-colors duration-300">
+            <span className="font-semibold w-16 flex items-center shrink-0">
               <span className="w-2 h-2 bg-purple-400 rounded-full mr-2 animate-pulse" style={{animationDelay: '0.4s'}}></span>
               By:
             </span> 
-            <span className="flex-1 line-clamp-1">{event.organiser}</span>
+            <span className="flex-1 line-clamp-2">{event.organiser}</span>
           </p>
         </div>
         

@@ -17,7 +17,7 @@ export default function EventDetails() {
           {eventsData.map((event, index) => (
             <div 
               key={event.id} 
-              className="flex-shrink-0 w-80 max-w-sm animate-fade-in-up"
+              className="flex-shrink-0 w-full sm:w-80 md:w-96 lg:w-80 xl:w-96 animate-fade-in-up"
               style={{
                 animationDelay: `${index * 0.1}s`,
                 animationFillMode: 'both'
