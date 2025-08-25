@@ -1,0 +1,47 @@
+[
+  {
+    "id": "1",
+    "name": "TechnoVision 2024",
+    "descreption": "Annual technical symposium featuring cutting-edge technology presentations, workshops on emerging technologies, and networking opportunities for students and professionals in the field of computer science and engineering.",
+    "date": "2024-03-15",
+    "venue": "St. Joseph's College of Engineering and Technology, Palai",
+    "organiser": "CSI SJCET Student Chapter",
+    "images": []
+  },
+  {
+    "id": "2",
+    "name": "Code Quest Championship",
+    "descreption": "Competitive programming contest designed to challenge students' algorithmic thinking and coding skills. Features multiple rounds including debugging, optimization challenges, and real-world problem solving scenarios.",
+    "date": "2024-09-22",
+    "venue": "Computer Science Department, SJCET",
+    "organiser": "CSI SJCET Technical Team",
+    "images": []
+  },
+  {
+    "id": "3",
+    "name": "AI & Machine Learning Workshop",
+    "descreption": "Comprehensive hands-on workshop covering fundamentals of artificial intelligence and machine learning. Includes practical sessions on Python libraries, neural networks, and real-world AI applications in various industries.",
+    "date": "2024-11-08",
+    "venue": "Innovation Lab, SJCET",
+    "organiser": "CSI SJCET Research Wing",
+    "images": []
+  },
+  {
+    "id": "4",
+    "name": "Cybersecurity Awareness Seminar",
+    "descreption": "Educational seminar focusing on current cybersecurity threats, best practices for digital safety, ethical hacking concepts, and career opportunities in information security. Features industry experts and live demonstrations.",
+    "date": "2024-12-05",
+    "venue": "Main Auditorium, SJCET",
+    "organiser": "CSI SJCET Security Chapter",
+    "images": []
+  },
+  {
+    "id": "5",
+    "name": "Web Development Bootcamp",
+    "descreption": "Intensive 3-day bootcamp covering modern web development technologies including HTML5, CSS3, JavaScript, React, and Node.js. Participants will build complete web applications from scratch with mentorship from industry professionals.",
+    "date": "2025-01-20",
+    "venue": "Software Development Lab, SJCET",
+    "organiser": "CSI SJCET Development Team",
+    "images": []
+  }
+]
